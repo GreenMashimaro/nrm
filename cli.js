@@ -717,7 +717,7 @@ function equalsIgnoreCase (str1, str2) {
     }
 }
 
-// 删除.nrmrc内的内容，使用默认配置里边（./registries.json）的npm源
+// 删除.nrmrc内的内容
 function cleanRegistry () {
     setCustomRegistry('', function (err) {
         if (err) exit(err);
