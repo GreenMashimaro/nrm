@@ -17,7 +17,7 @@ const humps = require('humps'); // 下划线到驼峰式大小写转换器
 const registries = require('./registries.json');
 const PKG = require('./package.json');
 /**
- * process.env 当前Shell的环境变量，以为的电脑为例: /Users/carl
+ * process.env 当前Shell的环境变量，以我的电脑为例: /Users/carl
  * path.join(process.env.HOME, '.nrmrc')即为: /Users/carl/.nrmrc
  */
 const NRMRC = path.join(process.env.HOME, '.nrmrc');
