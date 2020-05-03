@@ -200,7 +200,7 @@ function onList () {
  * 显示当前选中的源
  *  执行 nrm current显示源的名称
  *  执行 nrm current显示源名称对应的源的url
- * @param {Object} cmd 请查看https://github.com/tj/commander.js/blob/HEAD/Readme_zh-CN.md 下的 选项 部分内容
+ * @param {Object} cmd 请查看https://github.com/tj/commander.js/blob/HEAD/Readme_zh-CN.md#%e9%80%89%e9%a1%b9
  */
 function showCurrent (cmd) {
     // getCurrentRegistry获取当前使用npm源，当使用npm源时，cur值为https://registry.npmjs.org/
